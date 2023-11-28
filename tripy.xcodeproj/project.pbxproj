@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D32B15049100219CA7 /* tripyApp.swift */; };
+		EBE673D62B15049100219CA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D52B15049100219CA7 /* ContentView.swift */; };
+		EBE673D82B1504E100219CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE673D72B1504E100219CA7 /* Assets.xcassets */; };
+		EBE673DB2B1504E100219CA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE673DA2B1504E100219CA7 /* Preview Assets.xcassets */; };
+		EBE673E52B1504E100219CA7 /* tripyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673E42B1504E100219CA7 /* tripyTests.swift */; };
+		EBE673EF2B1504E100219CA7 /* tripyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673EE2B1504E100219CA7 /* tripyUITests.swift */; };
+		EBE673F12B1504E100219CA7 /* tripyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673F02B1504E100219CA7 /* tripyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE673E12B1504E100219CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE673C82B15049000219CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE673CF2B15049100219CA7;
+			remoteInfo = tripy;
+		};
+		EBE673EB2B1504E100219CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE673C82B15049000219CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE673CF2B15049100219CA7;
+			remoteInfo = tripy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBE673D02B15049100219CA7 /* tripy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE673D32B15049100219CA7 /* tripyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyApp.swift; sourceTree = "<group>"; };
+		EBE673D52B15049100219CA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE673D72B1504E100219CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE673DA2B1504E100219CA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBE673E02B1504E100219CA7 /* tripyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE673E42B1504E100219CA7 /* tripyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyTests.swift; sourceTree = "<group>"; };
+		EBE673EA2B1504E100219CA7 /* tripyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE673EE2B1504E100219CA7 /* tripyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyUITests.swift; sourceTree = "<group>"; };
+		EBE673F02B1504E100219CA7 /* tripyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE673CD2B15049100219CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673DD2B1504E100219CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673E72B1504E100219CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBE673C72B15049000219CA7 = {
+			isa = PBXGroup;
+			children = (
+				EBE673D22B15049100219CA7 /* tripy */,
+				EBE673E32B1504E100219CA7 /* tripyTests */,
+				EBE673ED2B1504E100219CA7 /* tripyUITests */,
+				EBE673D12B15049100219CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE673D12B15049100219CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE673D02B15049100219CA7 /* tripy.app */,
+				EBE673E02B1504E100219CA7 /* tripyTests.xctest */,
+				EBE673EA2B1504E100219CA7 /* tripyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE673D22B15049100219CA7 /* tripy */ = {
+			isa = PBXGroup;
+			children = (
+				EBE673D32B15049100219CA7 /* tripyApp.swift */,
+				EBE673D52B15049100219CA7 /* ContentView.swift */,
+				EBE673D72B1504E100219CA7 /* Assets.xcassets */,
+				EBE673D92B1504E100219CA7 /* Preview Content */,
+			);
+			path = tripy;
+			sourceTree = "<group>";
+		};
+		EBE673D92B1504E100219CA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBE673DA2B1504E100219CA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBE673E32B1504E100219CA7 /* tripyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE673E42B1504E100219CA7 /* tripyTests.swift */,
+			);
+			path = tripyTests;
+			sourceTree = "<group>";
+		};
+		EBE673ED2B1504E100219CA7 /* tripyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE673EE2B1504E100219CA7 /* tripyUITests.swift */,
+				EBE673F02B1504E100219CA7 /* tripyUITestsLaunchTests.swift */,
+			);
+			path = tripyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE673CF2B15049100219CA7 /* tripy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE673F42B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripy" */;
+			buildPhases = (
+				EBE673CC2B15049100219CA7 /* Sources */,
+				EBE673CD2B15049100219CA7 /* Frameworks */,
+				EBE673CE2B15049100219CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tripy;
+			productName = tripy;
+			productReference = EBE673D02B15049100219CA7 /* tripy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE673DF2B1504E100219CA7 /* tripyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE673F72B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripyTests" */;
+			buildPhases = (
+				EBE673DC2B1504E100219CA7 /* Sources */,
+				EBE673DD2B1504E100219CA7 /* Frameworks */,
+				EBE673DE2B1504E100219CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE673E22B1504E100219CA7 /* PBXTargetDependency */,
+			);
+			name = tripyTests;
+			productName = tripyTests;
+			productReference = EBE673E02B1504E100219CA7 /* tripyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBE673E92B1504E100219CA7 /* tripyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE673FA2B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripyUITests" */;
+			buildPhases = (
+				EBE673E62B1504E100219CA7 /* Sources */,
+				EBE673E72B1504E100219CA7 /* Frameworks */,
+				EBE673E82B1504E100219CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE673EC2B1504E100219CA7 /* PBXTargetDependency */,
+			);
+			name = tripyUITests;
+			productName = tripyUITests;
+			productReference = EBE673EA2B1504E100219CA7 /* tripyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE673C82B15049000219CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EBE673CF2B15049100219CA7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EBE673DF2B1504E100219CA7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EBE673CF2B15049100219CA7;
+					};
+					EBE673E92B1504E100219CA7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EBE673CF2B15049100219CA7;
+					};
+				};
+			};
+			buildConfigurationList = EBE673CB2B15049000219CA7 /* Build configuration list for PBXProject "tripy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE673C72B15049000219CA7;
+			productRefGroup = EBE673D12B15049100219CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE673CF2B15049100219CA7 /* tripy */,
+				EBE673DF2B1504E100219CA7 /* tripyTests */,
+				EBE673E92B1504E100219CA7 /* tripyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE673CE2B15049100219CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE673DB2B1504E100219CA7 /* Preview Assets.xcassets in Resources */,
+				EBE673D82B1504E100219CA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673DE2B1504E100219CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673E82B1504E100219CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE673CC2B15049100219CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE673D62B15049100219CA7 /* ContentView.swift in Sources */,
+				EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673DC2B1504E100219CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE673E52B1504E100219CA7 /* tripyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE673E62B1504E100219CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE673EF2B1504E100219CA7 /* tripyUITests.swift in Sources */,
+				EBE673F12B1504E100219CA7 /* tripyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE673E22B1504E100219CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE673CF2B15049100219CA7 /* tripy */;
+			targetProxy = EBE673E12B1504E100219CA7 /* PBXContainerItemProxy */;
+		};
+		EBE673EC2B1504E100219CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE673CF2B15049100219CA7 /* tripy */;
+			targetProxy = EBE673EB2B1504E100219CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBE673F22B1504E100219CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE673F32B1504E100219CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE673F52B1504E100219CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tripy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE673F62B1504E100219CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tripy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBE673F82B1504E100219CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tripy";
+			};
+			name = Debug;
+		};
+		EBE673F92B1504E100219CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tripy";
+			};
+			name = Release;
+		};
+		EBE673FB2B1504E100219CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tripy;
+			};
+			name = Debug;
+		};
+		EBE673FC2B1504E100219CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wetcci.tripyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tripy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE673CB2B15049000219CA7 /* Build configuration list for PBXProject "tripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE673F22B1504E100219CA7 /* Debug */,
+				EBE673F32B1504E100219CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE673F42B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE673F52B1504E100219CA7 /* Debug */,
+				EBE673F62B1504E100219CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE673F72B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE673F82B1504E100219CA7 /* Debug */,
+				EBE673F92B1504E100219CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE673FA2B1504E100219CA7 /* Build configuration list for PBXNativeTarget "tripyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE673FB2B1504E100219CA7 /* Debug */,
+				EBE673FC2B1504E100219CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE673C82B15049000219CA7 /* Project object */;
+}
