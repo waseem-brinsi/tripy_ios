@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBD455972B18D8FD00AB1C93 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD455962B18D8FD00AB1C93 /* SignInView.swift */; };
+		EBD4559D2B19185900AB1C93 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4559C2B19185900AB1C93 /* SignUpView.swift */; };
 		EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D32B15049100219CA7 /* tripyApp.swift */; };
-		EBE673D62B15049100219CA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D52B15049100219CA7 /* ContentView.swift */; };
+		EBE673D62B15049100219CA7 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D52B15049100219CA7 /* GetStartedView.swift */; };
 		EBE673D82B1504E100219CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE673D72B1504E100219CA7 /* Assets.xcassets */; };
 		EBE673DB2B1504E100219CA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE673DA2B1504E100219CA7 /* Preview Assets.xcassets */; };
 		EBE673E52B1504E100219CA7 /* tripyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673E42B1504E100219CA7 /* tripyTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EBD455962B18D8FD00AB1C93 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EBD4559C2B19185900AB1C93 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		EBE673D02B15049100219CA7 /* tripy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE673D32B15049100219CA7 /* tripyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyApp.swift; sourceTree = "<group>"; };
-		EBE673D52B15049100219CA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE673D52B15049100219CA7 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		EBE673D72B1504E100219CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE673DA2B1504E100219CA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE673E02B1504E100219CA7 /* tripyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				EBE673D32B15049100219CA7 /* tripyApp.swift */,
-				EBE673D52B15049100219CA7 /* ContentView.swift */,
+				EBE673D52B15049100219CA7 /* GetStartedView.swift */,
 				EBE673D72B1504E100219CA7 /* Assets.xcassets */,
 				EBE673D92B1504E100219CA7 /* Preview Content */,
+				EBD455962B18D8FD00AB1C93 /* SignInView.swift */,
+				EBD4559C2B19185900AB1C93 /* SignUpView.swift */,
 			);
 			path = tripy;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE673D62B15049100219CA7 /* ContentView.swift in Sources */,
+				EBD455972B18D8FD00AB1C93 /* SignInView.swift in Sources */,
+				EBE673D62B15049100219CA7 /* GetStartedView.swift in Sources */,
+				EBD4559D2B19185900AB1C93 /* SignUpView.swift in Sources */,
 				EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

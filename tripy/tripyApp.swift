@@ -11,7 +11,7 @@ import SwiftUI
 struct tripyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GetStartedView()
         }
     }
 }
