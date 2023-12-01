@@ -7,12 +7,16 @@
 
 import SwiftUI
 
+
 struct GetStartedView: View {
+
+    
     var body: some View {
         
-        GetStarted().preferredColorScheme(.light)
-        
+       GetStarted().preferredColorScheme(.light)
+
     }
+    
 }
 
 struct GetStartedView_Previews: PreviewProvider {
@@ -23,11 +27,9 @@ struct GetStartedView_Previews: PreviewProvider {
 }
 
 
-
 struct GetStarted: View {
     var body: some View {
         NavigationView{
-            
             ZStack{
                 Image("background").resizable().scaledToFill().edgesIgnoringSafeArea(.all)
                 VStack{
@@ -59,11 +61,9 @@ struct GetStarted: View {
                     }.shadow(color: Color.black, radius: 60, x:0.0,y:16)
 
                 }
-                
-            
-            
-            
         }
         
     }
 }
+
+

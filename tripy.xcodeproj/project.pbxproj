@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EBD455972B18D8FD00AB1C93 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD455962B18D8FD00AB1C93 /* SignInView.swift */; };
 		EBD4559D2B19185900AB1C93 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4559C2B19185900AB1C93 /* SignUpView.swift */; };
+		EBD455D52B19547C00AB1C93 /* AuthFaceIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD455D42B19547C00AB1C93 /* AuthFaceIdView.swift */; };
 		EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D32B15049100219CA7 /* tripyApp.swift */; };
 		EBE673D62B15049100219CA7 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE673D52B15049100219CA7 /* GetStartedView.swift */; };
 		EBE673D82B1504E100219CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE673D72B1504E100219CA7 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		EBD455962B18D8FD00AB1C93 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		EBD4559C2B19185900AB1C93 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EBD455D42B19547C00AB1C93 /* AuthFaceIdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFaceIdView.swift; sourceTree = "<group>"; };
 		EBE673D02B15049100219CA7 /* tripy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE673D32B15049100219CA7 /* tripyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripyApp.swift; sourceTree = "<group>"; };
 		EBE673D52B15049100219CA7 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				EBE673D92B1504E100219CA7 /* Preview Content */,
 				EBD455962B18D8FD00AB1C93 /* SignInView.swift */,
 				EBD4559C2B19185900AB1C93 /* SignUpView.swift */,
+				EBD455D42B19547C00AB1C93 /* AuthFaceIdView.swift */,
 			);
 			path = tripy;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				EBD455972B18D8FD00AB1C93 /* SignInView.swift in Sources */,
 				EBE673D62B15049100219CA7 /* GetStartedView.swift in Sources */,
 				EBD4559D2B19185900AB1C93 /* SignUpView.swift in Sources */,
+				EBD455D52B19547C00AB1C93 /* AuthFaceIdView.swift in Sources */,
 				EBE673D42B15049100219CA7 /* tripyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tripy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "face id to unlock the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tripy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "face id to unlock the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

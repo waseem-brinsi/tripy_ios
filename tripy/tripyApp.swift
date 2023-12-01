@@ -11,7 +11,8 @@ import SwiftUI
 struct tripyApp: App {
     var body: some Scene {
         WindowGroup {
-            GetStartedView()
+//            GetStartedView()
+            AuthFaceIdView()
         }
     }
 }
